@@ -1,0 +1,270 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+#photo{
+    height: 35vh;
+    width: 23%;
+    background-color: rgb(254, 229, 0);
+    color: black;
+    text-align: center;
+    position: relative;
+    padding: 5%;
+    font-size: larger;
+}
+#side-bar{
+    height: 65vh;
+    width: 23%;
+    /* background-color: #20232A; 282c34*/
+    background-color: #282c34;
+    padding: 2%;
+    color: white;
+    position: fixed;
+}
+#photo img{
+    border-radius: 10%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+    margin-bottom: 1%;
+}
+#photo h3{
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, 15%);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#side-bar hr{
+    margin-bottom: 10%;
+    margin-top: 2%;
+}
+#side-bar h4{
+    display: inline;
+    font-size: 18px;
+}
+#side-bar .info{
+    line-height: 150%;
+    display: block;
+    margin-top: 1%;
+    font-size: 16px;
+    width: 84%;
+    text-align: left;
+    /* background-color: aqua; */
+    margin-left: 8%;
+}
+.contacto{
+    margin-bottom: 5%;
+}
+#side-bar h3{
+    font-size: 20px;
+}
+#contenedor{
+    /* background-color: rebeccapurple; */
+    width:77% ;
+    height: 100vh;
+    position: absolute;
+    left: 23%;
+    top: 0%;
+}
+#contenedor img{
+    position: absolute;
+    right: 5%;
+    top: 4%;
+    width: 15%;
+}
+#contenedor #about{
+    background-color: #dfdfdf;
+    position: relative;
+    top: 10%;
+    left: -2%;
+    width: 50%;
+    height: 10vh;
+    border: rgb(0, 110, 255) 1px solid;
+}
+#about h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#contenedor #education{
+    background-color: #dfdfdf;
+    position: relative;
+    top: 29%;
+    left: -2%;
+    width: 50%;
+    height: 10vh;
+    border: rgb(0, 110, 255) 1px solid;
+}
+#education h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: fit-content;
+    transform: translate(-50%, -50%);
+}
+#contenedor #habilidad{
+    background-color: #dfdfdf;
+    position: relative;
+    top: 50%;
+    left: -2%;
+    width: 50%;
+    height: 10vh;
+    border: rgb(0, 110, 255) 1px solid;
+}
+#habilidad h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: fit-content;
+    transform: translate(-50%, -50%);
+}
+
+
+#texto{
+    /* background-color: red; */
+    position: absolute;
+    top: 25%;
+    padding-left: 2%;
+    padding-right: 2%;
+    vertical-align: 150%;
+    text-align: justify;
+}
+#texto1{
+    /* background-color: red; */
+    position: absolute;
+    top: 53%;
+    padding-left: 2%;
+    padding-right: 2%;
+    vertical-align: 200%;
+    text-align: justify;
+}
+#texto2{
+    /* background-color: red; */
+    position: absolute;
+    top: 84%;
+    padding-left: 4%;
+    padding-right: 2%;
+    vertical-align: 150%;
+    text-align: justify;
+}
+@media only screen and (max-width:1000px) {
+    /* For tablets: */
+    #side-bar, #photo{
+      width: 30%;
+      padding: 5%;
+    }
+    #photo h3{
+        font-size:larger;
+    }
+    #contenedor{
+        width: 70%;
+        left: 30%;
+    }
+    #side-bar h4{
+        display: block;
+        font-size: 18px;
+        line-height: 150%;
+    }
+    #side-bar .info{
+        font-size: 16px;
+        width: 84%;
+        text-align: left;
+        /* background-color: aqua; */
+        margin-left: 10%;
+    }
+    #side-bar{
+        padding: 3%;
+    }
+    .contacto{
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    #side-bar, #photo{
+      width: 40%;
+      padding: 5%;
+    }
+    #photo h3{
+        font-size:large;
+    }
+    #contenedor{
+        width: 60%;
+        left: 40%;
+    }
+    #side-bar h4{
+        display: block;
+        font-size: 18px;
+        line-height: 150%;
+    }
+    #side-bar .info{
+        font-size: 16px;
+        width: 84%;
+        text-align: left;
+        /* background-color: aqua; */
+        margin-left: 10%;
+    }
+    #side-bar{
+        padding: 3%;
+    }
+    .contacto{
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    /* For Phones */
+    #side-bar, #photo{
+      width: 40%;
+      padding: 5%;
+    }
+    #photo h3{
+        font-size: 17px;
+        font-weight:bolder;
+    }
+    #contenedor{
+        width: 60%;
+        left: 40%;
+    }
+    #side-bar h4{
+        display: block;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    #side-bar .info{
+        font-size: 12px;
+        width: 80%;
+        text-align: left;
+        /* background-color: aqua; */
+        margin-left: 12%;
+        height: auto;
+    }
+    #side-bar{
+        padding: 3%;
+    }
+    #side-bar h3{
+        margin-top: 5%;
+    }
+    #side-bar, #photo{
+        width: 45%;
+    }
+    #contenedor{
+        width: 55%;
+        left: 45%;
+    }
+}
+
