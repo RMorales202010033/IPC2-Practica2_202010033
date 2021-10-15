@@ -89,7 +89,7 @@ body{
     position: relative;
     top: 10%;
     left: -2%;
-    width: 50%;
+    width: 60%;
     height: 10vh;
     border: rgb(0, 110, 255) 1px solid;
 }
@@ -97,6 +97,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
+    width: fit-content;
     transform: translate(-50%, -50%);
 }
 #contenedor #education{
@@ -104,7 +105,7 @@ body{
     position: relative;
     top: 29%;
     left: -2%;
-    width: 50%;
+    width: 60%;
     height: 10vh;
     border: rgb(0, 110, 255) 1px solid;
 }
@@ -120,7 +121,7 @@ body{
     position: relative;
     top: 50%;
     left: -2%;
-    width: 50%;
+    width: 60%;
     height: 10vh;
     border: rgb(0, 110, 255) 1px solid;
 }
@@ -136,7 +137,7 @@ body{
 #texto{
     /* background-color: red; */
     position: absolute;
-    top: 25%;
+    top: 24%;
     padding-left: 2%;
     padding-right: 2%;
     vertical-align: 150%;
@@ -191,6 +192,34 @@ body{
     .contacto{
         margin-bottom: 5%;
     }
+    #about h1{
+        font-size: 21px;
+    }
+    #education h1{
+        font-size: 21px;
+    }
+    #habilidad h1{
+        font-size: 21px;
+    }
+    #texto{
+        top:21%
+    }
+    #texto1{
+        top: 54%;
+    }
+    #contenedor #about{
+        height: 8vh;
+    }
+    #contenedor #education{
+        height: 8vh;
+        top: 35%;
+    }
+    #contenedor #habilidad{
+        height: 8vh;
+    }
+    #texto2{
+        top: 78%;
+    }
 }
 
 @media only screen and (max-width:800px) {
@@ -223,6 +252,45 @@ body{
     }
     .contacto{
         margin-bottom: 5%;
+    }
+    #about h1{
+        font-size: 16px;
+    }
+    #education h1{
+        font-size: 16px;
+    }
+    #habilidad h1{
+        font-size: 16px;
+    }
+    #texto{
+        top:18%;
+        font-size:13px;
+        margin-left: 1%;
+    }
+    #texto1{
+        top: 57%;
+        font-size:13px;
+        margin-left: 1%;
+    }
+    #contenedor #about{
+        height: 6vh;
+        width:80%;
+    }
+    #contenedor #education{
+        height: 6vh;
+        top: 43%;
+        text-align: center;
+        width:80%;
+    }
+    #contenedor #habilidad{
+        height: 6vh;
+        width:80%;
+        top:59%;
+    }
+    #texto2{
+        top: 79%;
+        font-size:13px;
+        margin-left: 5%;
     }
 }
 
@@ -265,6 +333,48 @@ body{
     #contenedor{
         width: 55%;
         left: 45%;
+    }
+    #about h1{
+        font-size: 12px;
+    }
+    #education h1{
+        font-size: 12px;
+    }
+    #habilidad h1{
+        font-size: 12px;
+    }
+    #texto{
+        top:17%;
+        font-size:10px;
+        margin-left: 1%;
+        margin-right: 3%;
+    }
+    #texto1{
+        top: 55%;
+        font-size:10px;
+        margin-left: 1%;
+        margin-right: 3%;
+    }
+    #contenedor #about{
+        height: 5vh;
+        width:90%;
+    }
+    #contenedor #education{
+        height: 5vh;
+        top: 43%;
+        text-align: center;
+        width:90%;
+    }
+    #contenedor #habilidad{
+        height: 5vh;
+        width:90%;
+        top: 58%;
+    }
+    #texto2{
+        top: 75%;
+        font-size:10px;
+        margin-left: 5%;
+        margin-right: 3%;
     }
 }
 
